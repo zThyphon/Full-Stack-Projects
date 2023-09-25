@@ -1,0 +1,13 @@
+.info-section
+{
+    background-color: white;
+    padding-top: 1.5rem;
+}
+
+.info-section .info-text
+{
+    color:gray;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}

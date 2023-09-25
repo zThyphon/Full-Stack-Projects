@@ -1,0 +1,22 @@
+.footer
+{
+    padding-bottom: 0.1rem;
+    background-color: #022A28;
+    text-align: center;
+}
+
+.footer-text
+{
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    color: white;
+    font-weight: 400;
+}
+
+.footer .copyright-text
+{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-weight: 400;
+}

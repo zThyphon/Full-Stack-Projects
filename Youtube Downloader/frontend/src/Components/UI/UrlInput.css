@@ -1,0 +1,15 @@
+.url_input
+{
+    width:20rem;
+    height: 2rem;
+    margin-bottom: 3rem;
+    border: 3px solid gray;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.url_input:focus
+{
+    border: 2px solid blue;
+    border-radius: 5px;
+}

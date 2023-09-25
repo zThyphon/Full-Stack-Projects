@@ -1,0 +1,37 @@
+.header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-row
+{   
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom:1rem;
+}
+
+.header-row img
+{  
+    width: 7rem;
+    height: 7rem;
+}
+
+.header-text
+{
+    color: white;
+    font-size: 0.8em;
+    font-weight: 500;
+    padding-right: 10%;
+
+}
+
+.header-text span
+{
+    color: #779C0C;
+}

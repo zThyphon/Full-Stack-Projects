@@ -1,0 +1,15 @@
+.platform-container .platform-text
+{
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.platform-container .platform-icon
+{
+    width: 7rem;
+    height: 7rem;
+    padding: 1rem;
+}
