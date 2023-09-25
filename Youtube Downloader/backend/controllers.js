@@ -68,4 +68,4 @@ const DownloadController = async (request, response) => {
     }
 }
 
-module.exports = DownloadController;
+export default DownloadController;
