@@ -1,6 +1,6 @@
-import { getYouTubeVideoName } from "./functions.js";
-import ytdl from "ytdl-core";
-import unidecode from "unidecode";
+const { getYouTubeVideoName } = require("./functions.js");
+const ytdl = require("ytdl-core");
+const unidecode = require("unidecode");
 
 //Download Api
 const DownloadController = async (request, response) => {

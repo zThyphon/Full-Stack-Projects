@@ -1,5 +1,5 @@
-import express from "express";
-import { DownloadController } from "./controllers";
+const express = require("express");
+const { DownloadController } = require("./controllers");
 
 const app = express();
 
