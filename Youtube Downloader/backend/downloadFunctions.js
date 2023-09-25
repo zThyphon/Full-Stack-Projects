@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 
-export async function getYouTubeVideoName(url) {
+async function getYouTubeVideoName(url) {
   try 
   {
     // Fetch the YouTube page's HTML
@@ -28,4 +28,6 @@ export async function getYouTubeVideoName(url) {
     console.error("Error fetching YouTube page:", error);
     return null;
   }
-};
+}
+
+export default getYouTubeVideoName;
