@@ -42,13 +42,13 @@ const downloadSlice = createSlice(
             downloadVideo(state, action)
             {
                 const url =  state.videoUrl;
-                window.location.href = `http://localhost:8080/download/mp4?URL=${url}`;
+                window.location.href = `https://youtube-downloader-backend-iwkg.onrender.com/download/mp4?URL=${url}`;
             },
 
             downloadMusic(state, action)
             {
                 const url = state.musicUrl;
-                window.location.href = `http://localhost:8080/download/mp3?URL=${url}`;
+                window.location.href = `https://youtube-downloader-backend-iwkg.onrender.com/download/mp3?URL=${url}`;
             },
         }
     }
