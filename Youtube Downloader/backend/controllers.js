@@ -1,6 +1,6 @@
-import getYouTubeVideoName from "./downloadFunctions";
 import ytdl from "ytdl-core";
 import unidecode from "unidecode";
+import getYouTubeVideoName from "./downloadFunctions.js";
 
 //Download Api
 const DownloadController = async (request, response) => {
