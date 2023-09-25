@@ -31,6 +31,4 @@ async function getYouTubeVideoName(url) {
 }
 
 
-module.exports = {
-  getYouTubeVideoName,
-}
+module.exports = getYouTubeVideoName;
