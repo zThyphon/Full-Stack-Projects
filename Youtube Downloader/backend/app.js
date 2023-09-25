@@ -1,5 +1,5 @@
 const express = require("express");
-const { DownloadController } = require("./controllers");
+const DownloadController  = require("./controllers.js");
 
 const app = express();
 
