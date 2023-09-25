@@ -1,4 +1,4 @@
-import getYouTubeVideoName from "./functions";
+import getYouTubeVideoName from "./downloadFunctions";
 import ytdl from "ytdl-core";
 import unidecode from "unidecode";
 
