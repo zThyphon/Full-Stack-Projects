@@ -1,6 +1,7 @@
-const express = require('express');
+import express from "express";
+import { DownloadController } from "./controllers";
+
 const app = express();
-const DownloadController = require("./controllers").DownloadController;
 
 /*Create server opening text 
 (info about server started correctly)
