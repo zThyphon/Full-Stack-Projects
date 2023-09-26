@@ -35,3 +35,10 @@
 {
     color: #779C0C;
 }
+
+@media (max-width: 460px) {
+    .header-text
+    {
+        font-size: 30px;
+    }
+  }
